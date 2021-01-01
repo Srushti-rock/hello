@@ -1,0 +1,240 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/*navigation*/
+#my-navigation{
+    background: none;
+    border: none;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+}
+#my-navigation .navbar-toggle{
+    display: block;
+    border: 0;
+}
+#my-navigation .navbar-toggle:hover{
+    background: none;
+    cursor: pointer;
+}
+#my-navigation .navbar-header{
+    float: none;
+}
+#my-navigation .navbar-right{
+    float: left !important; /*this tell server to apply*/
+}
+#my-navigation .icon-right{
+    float: right;
+    position: relative;
+    top:-3px;
+    padding-left: 10px;
+    color: white;
+}
+/* #my-navigation .icon-bar{
+    background-color: #ffffff;
+} */
+#my-navigation .icon-bar-left{
+    float: left;    
+    color: white;
+}
+#my-navigation .navbar-brand, #my-navigation ul li a{
+    color: white;
+}
+/*carousel start*/
+.my-container{
+    padding: 0;
+    color: #ffffff;
+}
+.carousel .item{
+    background-image: url("../image/img1.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+.carousel .item-2{
+    background-image: url("../image/img2.jpg");
+}
+.carousel .item-2{
+    background-image: url("../image/img3.jpg");
+}
+.carousel .item-2{
+    background-image: url("../image/img4.jpg");
+}
+.carousel .item-2{
+    background-image: url("../image/img5.jpg");
+}
+
+/*banner*/
+.banner-text{
+    text-align: center;
+    width: 35%;
+    position:absolute;
+    top: 40%;
+    left: 35%;
+    z-index: 20;
+}
+.banner-text hr{
+    width: 50%;
+}
+.banner-text p{
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+.banner-text h1{
+    font-size: 80px;
+    font-weight: 100;
+    margin-top: 5px;
+}
+/*two section*/
+.two-section{
+    padding: 30px 0px;
+}
+.two-section img{
+    width: 100%;
+}
+.two-section .left, .two-section .right{
+    background-color: #ffffff;
+    text-align: center;
+    width: 95%;
+}
+.two-section h6{
+    letter-spacing: 3px;
+    color: gray;
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+
+.two-section hr{
+    width: 40%;
+    margin: 0 auto;
+    color: gray;
+    height: 0.5px;
+}
+.two-section h3{
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 8px;
+}
+.two-section p{
+    text-align: left;
+    padding: 5px 30px;
+    font-size: 15px;
+    color: gray;
+}
+
+.two-section button{
+    width: 150px;
+    height: 40px;
+    background: none;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: 2px solid gray;
+}
+.two-section .right{
+    margin-left:5% ;
+}
+
+/*end*/
+/*Full quote*/
+
+.full-quote{
+    text-align: center;
+    background-image: url("../image/img4.jpg");
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    color: white;
+    padding: 100px 0;
+}
+.full-quote p, .four-image-section p{
+    letter-spacing: 4px;
+    font-size: 13px;
+}
+.full-quote hr, .four-image-section hr{
+    width: 35%;
+}
+.full-quote h5, .four-image-section h5{
+    font-size: 30px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+/* 4 image section start*/
+.four-image-section {
+    padding: 100px 0;
+}
+.four-image-section  h5{
+    margin-bottom: 70px;
+}
+.four-image-section img{
+    width: 100%;
+    float: left;
+    margin-bottom: 6%;
+    border: 5px solid #ffffff;
+}
+.four-image-section .left{
+    margin-left: 5%;
+}
+
+/*footer start*/
+.footer{
+    text-align: center;
+    background-color: #000000;
+    color: gray;
+    padding: 50px 0;
+}
+.footer a{
+    color: gray;
+}
+.footer .fa{
+    font-size: 25px;
+    padding: 10px;
+}
+
+/*media query*/
+
+@media only screen and (max-width: 768px){
+    .my-collapse{
+        padding-right: 15px;
+        padding-left: 15px;
+        border-top: 1px solid gray;
+    }
+    .full-quote p, .four-image-section p{
+        letter-spacing: 3px;
+        font-size: 10px;
+    }
+    .full-quote hr, .four-image-section hr{
+        width: 60%;
+    }
+    .full-quote h5, .four-image-section h5{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 992px){
+
+    .banner-text p{
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
+    .banner-text h1{
+        font-size: 60px;
+    }
+    .two-section .left, .two-section .right{
+        width: 100%;
+    }
+    .two-section .right{
+        margin-left: 0;
+    }
+    .four-image .img{
+        width: 100%;
+        
+    }
+    .four-image .left{
+        margin-left: 0;
+    }
+
+}
+
+
+
